@@ -1,0 +1,39 @@
+@media screen and (max-width:1150px) {
+    .main {}
+}
+
+@media screen and (max-width:640px) {
+    .main {
+        &_navigation {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 7px;
+            margin-bottom: 40px;
+
+            .main_link {
+                margin-bottom: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main {
+        &_second--section {
+            .card {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:385px) {
+    .main {
+        &_navigation {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

@@ -1,0 +1,144 @@
+@media screen and (max-width: 1230px) {
+    .main {
+
+        &_second--section {
+            .main_container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: center;
+                gap: 25px;
+
+                .main_second--card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main {
+
+        &_fifth--clients {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .main {
+        &_third--images {
+            display: grid;
+            grid-template-areas: "first-card second-card"
+                "third-card .";
+
+            div:first-child {
+                grid-area: first-card;
+            }
+
+            div:nth-child(2) {
+                grid-area: second-card;
+            }
+
+            div:nth-child(3) {
+                grid-area: third-card;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1105px) {
+      .main {
+        &_fourth--cards {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+      }
+}
+
+@media screen and (max-width: 765px) {
+    .main {
+        &_third--images {
+            grid-template-areas: "first-card"
+                "second-card"
+                "third-card";
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+
+        &_fifth--clients {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width:585px) {
+    .main {
+        &_second--section {
+            .main_container {
+                grid-template-columns: repeat(1, 1fr);
+
+                .main_second--text {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:580px) {
+    .main {
+        &_fourth--cards {
+            gap: 30px;
+            grid-template-columns: repeat(1,1fr);
+            }
+        }
+      }
+
+@media screen and (max-width: 420px) {
+    .main {
+        &_first {
+            &--section {
+                background-position: center;
+            }
+
+            &--title {
+                font-size: 30px;
+            }
+
+            &--btn {
+                width: 195px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+
+        &_fifth--clients {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .main {
+        &_third--section {
+            display: none;
+        }
+    }
+}
+

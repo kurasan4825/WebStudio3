@@ -1,0 +1,32 @@
+@media screen and (max-width: 560px) {
+     .backdrop {
+      .modal {
+        width: 300px;
+        height: 600px;
+
+        
+
+        .form input:not([type=checkbox]), .form_field textarea {
+            width: 200px;
+            
+         }
+         .form-accept--rules {
+            padding: 0 10px 0 10px;
+        }
+        .form_submit {
+            width: 150px;
+            height: 35px;
+            font-size: 14px;
+        }
+        .form_btn--wrapper {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        .form_accept--text {
+            max-width: 165px;
+        }
+
+     }
+
+    }
+}

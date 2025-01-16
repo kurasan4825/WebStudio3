@@ -1,0 +1,29 @@
+@media screen and (max-width: 1011px) {
+    .footer {
+        &_right {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .footer {
+        &_third--email--wrapper {
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .footer {
+        &_container {
+            flex-direction: column;
+            gap: 35px;
+        }
+    }
+}
